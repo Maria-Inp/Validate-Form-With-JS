@@ -1,4 +1,3 @@
-# Validate-Form-with-JS
 ## Validate Form while typing, before submit with JavaScript
 <p style="text-align: right">دراین پروژه قصد پیاده سازی فرم ثبت نام کاربر را داریم بطوریکه در هنگام تایپ کردن فرم اعتبار سنجی شود و پیغام های مناسب به کاربر نمایش داده شود
 </p>
@@ -9,7 +8,7 @@
 - index.html
 - style.css
 - app.js
-<hr>
+
 
 ### index.html
 <p style="text-align: right">
@@ -28,9 +27,9 @@
 addEventListener
 می‌باشد که به کمک ایونت
 submit 
-هنگام کلیک روی دکمه ثبت فرم اعتبار سنجی می‌شود و به کمک ایونت 
+هنگام کلیک روی دکمه ثبت، فرم اعتبار سنجی می‌شود و به کمک ایونت 
 input 
 هنگام تایپ در لحظه فرم اعتبار سنجی می‌شود
 </p>
 
-###End
+### End
