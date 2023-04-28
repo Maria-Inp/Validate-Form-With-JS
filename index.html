@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="signup" class="form">
+            <h1>ثبت نام</h1>
+            <div class="form-field">
+                <label for="username">نام کاربری:</label>
+                <input type="text" name="username" id="username" autocomplete="off" dir="ltr">
+                <small></small>
+            </div>
+
+            <div class="form-field">
+                <label for="email">ایمیل:</label>
+                <input type="text" name="email" id="email" autocomplete="off" dir="ltr">
+                <small></small>
+            </div>
+
+            <div class="form-field">
+                <label for="password">رمز عبور:</label>
+                <input type="password" name="password" id="password" autocomplete="off" dir="ltr">
+                <small></small>
+            </div>
+
+
+            <div class="form-field">
+                <label for="confirm-password">تایید رمز عبور:</label>
+                <input type="password" name="confirm-password" id="confirm-password" autocomplete="off" dir="ltr">
+                <small></small>
+            </div>
+
+            <div class="form-field">
+                <button class="btn">ثبت</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
